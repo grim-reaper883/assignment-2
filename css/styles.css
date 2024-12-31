@@ -356,7 +356,7 @@ p {
 }
 
 .bmi-form input, .bmi-form select, .bmi-form button {
-  width: 100%;
+  width: 96%;
   padding: 0.8rem;
   margin-bottom: 1rem;
   border: none;
@@ -434,12 +434,11 @@ p {
 .footer {
   background-color: #1a1a1a;
   color: #ffffff;
-  padding: 60px 20px;
+  padding: 60px 20px 10px 60px;
   margin-top: 100px;
 }
 
 .footer-content {
-  max-width: 1200px;
   display: grid;
   margin: 0 auto;
   grid-template-columns: 2fr 1fr 1fr;
@@ -478,7 +477,7 @@ p {
 }
 
 .footer-column ul li a:hover {
-  color: #ff6347;
+  color: rgba(230, 83, 60, 1);
 }
 
 .footer-bottom {
@@ -488,6 +487,8 @@ p {
   padding-top: 20px;
   border-top: 1px solid #333;
 }
+
+/*responsive section */
 
 @media screen and (max-width: 768px) {
   /* Show hamburger, hide nav links */
